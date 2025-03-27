@@ -1,9 +1,9 @@
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
     padding: 1rem;
     background-color: darkblue;
+    align-items: center;
 }
 
 .header h1 {
@@ -12,3 +12,18 @@
     color: white;
 }
 
+.navigation {
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
