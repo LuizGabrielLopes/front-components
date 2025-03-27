@@ -1,0 +1,22 @@
+.section {
+    background-color: rgb(63, 194, 63);
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.botao {
+    width: 30%;
+    height: 6vh;
+    border-radius: 10%;
+}
