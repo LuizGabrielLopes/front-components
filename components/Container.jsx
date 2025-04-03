@@ -2,14 +2,15 @@ import styles from "../styles/Container.module.css";
 import Card from "./Cards"
 
 export default function Container() {
+
     return (
         <div className={styles.container}>
             <div className={styles.title}>
              <div className={styles.title1}>
-                <h1>Bla bla</h1>
+                <h1>Bla Bla</h1>
             </div>
             <div className={styles.title2}>
-                <h4>bla bla</h4>
+                <h4>Bla Bla</h4>
             </div>
             </div>
             <div className={styles.content}>
