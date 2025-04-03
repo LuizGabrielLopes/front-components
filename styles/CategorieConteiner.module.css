@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 100%;
+    background-color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    max-width: 100%;
+    height: 15rem;
+    margin: 0 3rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+    width: 100%;
+    height: 5rem;
+    padding: 3rem;  
+}
+
+.title h1 {
+    color: green;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.title2 {
+    display: flex;
+    flex-direction: row;
+    color: green;
+    align-items: end;
+    justify-content: end;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
