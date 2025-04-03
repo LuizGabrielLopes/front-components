@@ -3,26 +3,28 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: darkblue;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(9,9,121,1) 26%, rgba(0,212,255,1) 100%);
     color: white;
+    gap: 3rem;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    width: 13%;
+    width: 6rem;
     height: auto;
 }
 
 .navigation {
     flex: 1;
     display: flex;
+    justify-content: flex-end;
     gap: 1.5rem;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
-    margin-right: 3rem;
 }
 
 .navigation ul {
@@ -39,5 +41,19 @@
 
 .navigation a:hover {
     color: #ddd;
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        align-items: center;
+        padding: 2rem;
+        gap: 1rem;
+    }
+    
+    .navigation a{
+        font-size: 0.9rem;
+    }
+    
 }
 
