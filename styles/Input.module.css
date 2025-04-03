@@ -19,4 +19,6 @@
     border: none;
     cursor: pointer;
     margin-left: 8px;
+    display: flex;
+    flex-direction: row;
 }
