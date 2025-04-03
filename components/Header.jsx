@@ -16,7 +16,7 @@ export default function Header() {
                 </ul>
             </nav>
 
-            <Input placeholder="Search"/>
+            <Input placeholder="🔍 Search"/>
 
         </header>
     );
