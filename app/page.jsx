@@ -11,6 +11,7 @@ export default function Home() {
       <Section />
       <Container />
       <CategorieContainer />
+      <Container />
     </div>
   )
 }
