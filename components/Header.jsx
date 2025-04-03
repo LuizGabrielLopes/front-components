@@ -11,11 +11,12 @@ export default function Header() {
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/">About</a></li>
+                    <li><a href="/">Cards</a></li>
                     <li><a href="/">Contact</a></li>
                 </ul>
             </nav>
 
-            <Input type="text" placeholder="Search" value="" />
+            <Input placeholder="Search"/>
 
         </header>
     );
