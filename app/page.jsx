@@ -3,6 +3,7 @@ import Section from "../components/Home"
 import Container from "../components/Container";
 import Categories from "../components/Categories";
 import CategorieContainer from "../components/CategorieContainer";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
       <Section />
       <Container />
       <CategorieContainer />
+      <Container />
+      <Footer />
     </div>
   )
 }
