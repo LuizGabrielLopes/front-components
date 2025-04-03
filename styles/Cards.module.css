@@ -4,6 +4,12 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 16px;
     margin:1rem;
-    width: 20rem;
+    width: 15rem;
     height: 20rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
